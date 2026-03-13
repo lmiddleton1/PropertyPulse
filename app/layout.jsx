@@ -8,9 +8,9 @@ import '@/assets/styles/globals.css';
 import 'photoswipe/dist/photoswipe.css';
 
 export const metadata = {
-    title: 'Property Pulse',
-    keywords: 'rental, property, real estate',
-    description: 'Find the perfect rental property',
+    title: 'LM Lettings',
+    keywords: 'rental, property, real estate, lettings',
+    description: 'Find the perfect rental property with LM Lettings',
 };
 
 const MainLayout = (  { children}  ) => {

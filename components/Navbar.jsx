@@ -4,8 +4,7 @@ import {  useState, useEffect  } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import logo from '@/assets/images/logo-white.png';
-import profileDefault from '@/assets/images/profile.png' 
+import profileDefault from '@/assets/images/profile.png'
 import {  FaGoogle  } from 'react-icons/fa';
 import { signIn, signOut, useSession, getProviders } from 'next-auth/react';
 import UnreadMessageCount from './UnreadMessageCount';
@@ -81,15 +80,8 @@ const profileImage = session?.user?.image;
           >
             {/* <!-- Logo --> */}
             <Link className="flex flex-shrink-0 items-center" href="/">
-              <Image
-                className="h-10 w-auto"
-                src={logo}
-                alt="PropertyPulse"
-              />
-
-              <span className="hidden md:block text-white text-2xl font-bold ml-2"
-                >PropertyPulse</span
-              >
+              <span className="flex items-center justify-center h-10 w-10 rounded-lg bg-blue-600 text-white text-lg font-extrabold">LM</span>
+              <span className="hidden md:block text-white text-2xl font-bold ml-2">LM Lettings</span>
             </Link>
             {/* <!-- Desktop Menu Hidden below md screens --> */}
             <div className="hidden md:ml-6 md:block">

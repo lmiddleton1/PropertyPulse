@@ -21,7 +21,7 @@ const HomeProperties = async () => {
         <h2 className="text-3xl font-bold text-gray-900 mb-2 text-center">
             Recent Properties
         </h2>
-        <p className="text-gray-500 text-center mb-8">The latest listings added to PropertyPulse</p>
+        <p className="text-gray-500 text-center mb-8">The latest listings added to LM Lettings</p>
         {recentProperties.length === 0 ? (
             <p>No properties found</p>
         ) : (

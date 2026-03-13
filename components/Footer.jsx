@@ -1,6 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
-import logo from '@/assets/images/logo-white.png'
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -12,7 +10,10 @@ const Footer = () => {
 
           {/* Logo + tagline */}
           <div className="flex flex-col items-center md:items-start gap-1">
-            <Image src={logo} alt="PropertyPulse" className="h-8 w-auto" />
+            <span className="flex items-center gap-2">
+              <span className="flex items-center justify-center h-8 w-8 rounded-lg bg-blue-600 text-white text-sm font-extrabold">LM</span>
+              <span className="text-white text-xl font-bold">LM Lettings</span>
+            </span>
             <p className="text-gray-500 text-sm">Find your perfect UK rental</p>
           </div>
 
@@ -32,7 +33,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-sm text-gray-500">
-            &copy; {currentYear} PropertyPulse. All rights reserved.
+            &copy; {currentYear} LM Lettings. All rights reserved.
           </p>
 
         </div>
