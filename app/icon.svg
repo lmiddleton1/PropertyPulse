@@ -1,8 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <!-- Background -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <rect width="100" height="100" fill="#b8bfae" rx="6"/>
-  <!-- L - top left -->
   <text x="25" y="46" font-family="Georgia, serif" font-size="36" font-weight="bold" fill="#2c2c2c" text-anchor="middle" dominant-baseline="middle">L</text>
-  <!-- M - bottom right -->
   <text x="72" y="72" font-family="Georgia, serif" font-size="34" font-weight="bold" fill="#2c2c2c" text-anchor="middle" dominant-baseline="middle">M</text>
 </svg>
