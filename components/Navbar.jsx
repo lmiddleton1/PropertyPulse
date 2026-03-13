@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import profileDefault from '@/assets/images/profile.png'
+import logo from '@/assets/images/lm-logo.svg'
 import {  FaGoogle  } from 'react-icons/fa';
 import { signIn, signOut, useSession, getProviders } from 'next-auth/react';
 import UnreadMessageCount from './UnreadMessageCount';
@@ -80,7 +81,7 @@ const profileImage = session?.user?.image;
           >
             {/* <!-- Logo --> */}
             <Link className="flex flex-shrink-0 items-center" href="/">
-              <span className="flex items-center justify-center h-10 w-10 rounded-lg bg-blue-600 text-white text-lg font-extrabold">LM</span>
+              <Image className="h-10 w-auto" src={logo} alt="LM Lettings" />
               <span className="hidden md:block text-white text-2xl font-bold ml-2">LM Lettings</span>
             </Link>
             {/* <!-- Desktop Menu Hidden below md screens --> */}
