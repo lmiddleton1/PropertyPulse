@@ -2,6 +2,7 @@ export const dynamic = 'force-dynamic';
 
 import connectDB from "@/config/database";
 import Message from "@/models/Message";
+import "@/models/Property";
 import { convertToSerializableObject } from "@/utils/ConvertToObject";
 import { getSessionUser } from "@/utils/getSessionUser";
 import MessegeCard from "@/components/MessegeCard";
