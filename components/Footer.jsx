@@ -1,9 +1,12 @@
+'use client';
 import Link from "next/link";
 import Image from "next/image";
 import logo from '@/assets/images/lm-logo.svg'
+import { useSession } from 'next-auth/react';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
+    const { data: session } = useSession();
 
     return (
     <footer className="bg-gray-900 border-t border-gray-800 mt-16">
@@ -26,11 +29,13 @@ const Footer = () => {
                 Properties
               </Link>
             </li>
+            {session && (
             <li>
               <Link href="/properties/add" className="hover:text-white transition-colors">
                 Add Property
               </Link>
             </li>
+            )}
           </ul>
 
           {/* Copyright */}
