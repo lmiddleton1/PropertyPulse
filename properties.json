@@ -1,0 +1,424 @@
+[
+  {
+    "_id": "1",
+    "owner": "1",
+    "name": "Camden City Apartment",
+    "type": "Flat",
+    "description": "This is a beautiful apartment located in the heart of Camden, London. It is a 2 bedroom apartment with a full kitchen and bathroom. It is available for weekly or monthly rentals.",
+    "location": {
+      "street": "12 Parkway",
+      "city": "London",
+      "state": "Greater London",
+      "zipcode": "NW1 7AA"
+    },
+    "beds": 2,
+    "baths": 1,
+    "square_feet": 1500,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Wheelchair Accessible",
+      "Elevator Access",
+      "Dishwasher",
+      "Gym/Fitness Center",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 850,
+      "monthly": 3200
+    },
+    "seller_info": {
+      "name": "James Smith",
+      "email": "james@gmail.com",
+      "phone": "07700 900001"
+    },
+    "images": [
+      "/properties/a1.jpg",
+      "/properties/a2.jpg",
+      "/properties/a3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "2",
+    "owner": "1",
+    "name": "Cosy Northern Quarter Loft",
+    "type": "Flat",
+    "description": "A cosy loft in Manchester's vibrant Northern Quarter with great city views.",
+    "location": {
+      "street": "45 Tib Street",
+      "city": "Manchester",
+      "state": "Greater Manchester",
+      "zipcode": "M4 1LS"
+    },
+    "beds": 1,
+    "baths": 1,
+    "square_feet": 1800,
+    "amenities": [
+      "24/7 Security",
+      "Air Conditioning",
+      "Dishwasher",
+      "Elevator Access",
+      "Free Parking",
+      "Full kitchen",
+      "High-Speed Internet",
+      "Hot Tub",
+      "Outdoor Grill/BBQ",
+      "Smart TV",
+      "Washer & Dryer",
+      "Wheelchair Accessible",
+      "Wifi"
+    ],
+    "rates": {
+      "weekly": 750,
+      "monthly": 2900
+    },
+    "seller_info": {
+      "name": "Sophie Jones",
+      "email": "sophie@gmail.com",
+      "phone": "07700 900002"
+    },
+    "images": [
+      "/properties/b1.jpg",
+      "/properties/b2.jpg",
+      "/properties/b3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2024-01-02T00:00:00.000Z",
+    "updatedAt": "2024-01-02T00:00:00.000Z"
+  },
+  {
+    "_id": "3",
+    "owner": "2",
+    "name": "Luxury New Town Flat",
+    "type": "Flat",
+    "description": "Experience luxury in this stunning flat in Edinburgh's New Town with breathtaking views of the city.",
+    "location": {
+      "street": "15 Queen Street",
+      "city": "Edinburgh",
+      "state": "Scotland",
+      "zipcode": "EH2 1JE"
+    },
+    "beds": 3,
+    "baths": 2,
+    "square_feet": 2200,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Wheelchair Accessible",
+      "Elevator Access",
+      "Dishwasher",
+      "Swimming Pool",
+      "Gym/Fitness Center",
+      "Air Conditioning",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "nightly": 150,
+      "weekly": 600,
+      "monthly": 2500
+    },
+    "seller_info": {
+      "name": "David Fraser",
+      "email": "david@gmail.com",
+      "phone": "07700 900003"
+    },
+    "images": [
+      "/properties/c1.jpg",
+      "/properties/c2.jpg",
+      "/properties/c3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2024-01-03T00:00:00.000Z",
+    "updatedAt": "2024-01-03T00:00:00.000Z"
+  },
+  {
+    "_id": "4",
+    "owner": "2",
+    "name": "Charming Cotswolds Cottage",
+    "type": "Cottage",
+    "description": "Escape to this charming stone cottage in the heart of the Cotswolds for a peaceful retreat.",
+    "location": {
+      "street": "8 High Street",
+      "city": "Bourton-on-the-Water",
+      "state": "Gloucestershire",
+      "zipcode": "GL54 2AN"
+    },
+    "beds": 1,
+    "baths": 1,
+    "square_feet": 900,
+    "amenities": [
+      "Fireplace",
+      "Outdoor Grill/BBQ",
+      "Balcony/Patio",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 1200
+    },
+    "seller_info": {
+      "name": "Emily Clarke",
+      "email": "emily@gmail.com",
+      "phone": "07700 900004"
+    },
+    "images": [
+      "/properties/d1.jpg",
+      "/properties/d2.jpg",
+      "/properties/d3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2024-01-04T00:00:00.000Z",
+    "updatedAt": "2024-01-04T00:00:00.000Z"
+  },
+  {
+    "_id": "5",
+    "owner": "3",
+    "name": "Modern City Centre Studio",
+    "type": "Studio",
+    "description": "Stay in style in this modern city centre studio in Birmingham's vibrant Digbeth district.",
+    "location": {
+      "street": "22 Floodgate Street",
+      "city": "Birmingham",
+      "state": "West Midlands",
+      "zipcode": "B5 5SL"
+    },
+    "beds": 1,
+    "baths": 1,
+    "square_feet": 900,
+    "amenities": [
+      "High-Speed Internet",
+      "Smart TV",
+      "Air Conditioning",
+      "Gym/Fitness Center",
+      "Outdoor Grill/BBQ"
+    ],
+    "rates": {
+      "weekly": 650,
+      "monthly": 2400
+    },
+    "seller_info": {
+      "name": "Michael Brown",
+      "email": "michael@gmail.com",
+      "phone": "07700 900005"
+    },
+    "images": [
+      "/properties/e1.jpg",
+      "/properties/e2.jpg",
+      "/properties/e3.jpg"
+    ],
+    "is_featured": true,
+    "createdAt": "2024-01-05T00:00:00.000Z",
+    "updatedAt": "2024-01-05T00:00:00.000Z"
+  },
+  {
+    "_id": "6",
+    "owner": "3",
+    "name": "Cornish Seaside Retreat",
+    "type": "Detached House",
+    "description": "Escape to this beautiful seaside house on the Cornish coast for a relaxing getaway.",
+    "location": {
+      "street": "3 Harbour Road",
+      "city": "St Ives",
+      "state": "Cornwall",
+      "zipcode": "TR26 1LP"
+    },
+    "beds": 4,
+    "baths": 3,
+    "square_feet": 2800,
+    "amenities": [
+      "Beach Access",
+      "Swimming Pool",
+      "Balcony/Patio",
+      "Smart TV",
+      "Outdoor Grill/BBQ"
+    ],
+    "rates": {
+      "nightly": 350,
+      "weekly": 1800
+    },
+    "seller_info": {
+      "name": "Sarah Williams",
+      "email": "sarah@gmail.com",
+      "phone": "07700 900006"
+    },
+    "images": [
+      "/properties/f1.jpg",
+      "/properties/f2.jpg",
+      "/properties/f3.jpg"
+    ],
+    "is_featured": true,
+    "createdAt": "2024-01-06T00:00:00.000Z",
+    "updatedAt": "2024-01-06T00:00:00.000Z"
+  },
+  {
+    "_id": "7",
+    "owner": "4",
+    "name": "Rustic Lake District Cabin",
+    "type": "Cottage",
+    "description": "Experience nature in this cosy rustic cabin in the heart of the Lake District.",
+    "location": {
+      "street": "14 Langdale Road",
+      "city": "Ambleside",
+      "state": "Cumbria",
+      "zipcode": "LA22 9DU"
+    },
+    "beds": 2,
+    "baths": 1,
+    "square_feet": 1100,
+    "amenities": [
+      "Fireplace",
+      "Outdoor Grill/BBQ",
+      "Hiking Trails Access",
+      "Pet-Friendly"
+    ],
+    "rates": {
+      "nightly": 200,
+      "weekly": 1100
+    },
+    "seller_info": {
+      "name": "Robert Anderson",
+      "email": "robert@gmail.com",
+      "phone": "07700 900007"
+    },
+    "images": [
+      "/properties/g1.jpg",
+      "/properties/g2.jpg",
+      "/properties/g3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2024-01-07T00:00:00.000Z",
+    "updatedAt": "2024-01-07T00:00:00.000Z"
+  },
+  {
+    "_id": "8",
+    "owner": "5",
+    "name": "Scottish Highlands Ski Chalet",
+    "type": "Chalet",
+    "description": "Hit the slopes from this cosy ski chalet in the Cairngorms National Park.",
+    "location": {
+      "street": "7 Grampian Road",
+      "city": "Aviemore",
+      "state": "Scotland",
+      "zipcode": "PH22 1RH"
+    },
+    "beds": 3,
+    "baths": 2,
+    "square_feet": 1800,
+    "amenities": [
+      "Ski Equipment Storage",
+      "Fireplace",
+      "Balcony/Patio",
+      "Smart TV"
+    ],
+    "rates": {
+      "nightly": 220,
+      "weekly": 900
+    },
+    "seller_info": {
+      "name": "Jennifer MacDonald",
+      "email": "jennifer@gmail.com",
+      "phone": "07700 900008"
+    },
+    "images": [
+      "/properties/h1.jpg",
+      "/properties/h2.jpg",
+      "/properties/h3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2024-01-08T00:00:00.000Z",
+    "updatedAt": "2024-01-08T00:00:00.000Z"
+  },
+  {
+    "_id": "9",
+    "owner": "6",
+    "name": "Peak District Country House",
+    "type": "Detached House",
+    "description": "Enjoy stunning moorland views from this spacious country house in the Peak District.",
+    "location": {
+      "street": "22 Buxton Road",
+      "city": "Bakewell",
+      "state": "Derbyshire",
+      "zipcode": "DE45 1DA"
+    },
+    "beds": 4,
+    "baths": 3,
+    "square_feet": 2400,
+    "amenities": [
+      "Mountain View",
+      "Hiking Trails Access",
+      "Air Conditioning",
+      "Smart TV",
+      "Outdoor Grill/BBQ"
+    ],
+    "rates": {
+      "weekly": 950,
+      "monthly": 3500
+    },
+    "seller_info": {
+      "name": "Lisa Taylor",
+      "email": "lisa@gmail.com",
+      "phone": "07700 900009"
+    },
+    "images": [
+      "/properties/i1.jpg",
+      "/properties/i2.jpg",
+      "/properties/i3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2024-01-09T00:00:00.000Z",
+    "updatedAt": "2024-01-09T00:00:00.000Z"
+  },
+  {
+    "_id": "10",
+    "owner": "7",
+    "name": "Historic York City Apartment",
+    "type": "Flat",
+    "description": "Step back in time with a stay in this beautifully restored apartment within York's medieval city walls.",
+    "location": {
+      "street": "6 Stonegate",
+      "city": "York",
+      "state": "North Yorkshire",
+      "zipcode": "YO1 8AS"
+    },
+    "beds": 2,
+    "baths": 1,
+    "square_feet": 1200,
+    "amenities": [
+      "High-Speed Internet",
+      "Air Conditioning",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 500,
+      "monthly": 1800
+    },
+    "seller_info": {
+      "name": "Matthew Harris",
+      "email": "matthew@gmail.com",
+      "phone": "07700 900010"
+    },
+    "images": [
+      "/properties/j1.jpg",
+      "/properties/j2.jpg",
+      "/properties/j3.jpg"
+    ],
+    "is_featured": false,
+    "createdAt": "2024-01-10T00:00:00.000Z",
+    "updatedAt": "2024-01-10T00:00:00.000Z"
+  }
+]
