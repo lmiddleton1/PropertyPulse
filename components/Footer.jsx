@@ -35,7 +35,10 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-sm text-gray-500">
-            &copy; {currentYear} LM Lettings. All rights reserved.
+            &copy; {currentYear} LM Lettings. All rights reserved. |{' '}
+            <a href="https://lmiddleton.co.uk/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+              lmiddleton.co.uk
+            </a>
           </p>
 
         </div>
