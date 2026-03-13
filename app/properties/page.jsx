@@ -4,7 +4,7 @@ import connectDB from '@/config/database';
 import Property from '@/models/Property';
 
 const PropertiesPage = async ({ searchParams }) => {
-    const { page = 1, pageSize = 9 } = await searchParams;
+    const { page = 1, pageSize = 6 } = await searchParams;
     await connectDB();
 const skip = (page - 1) * pageSize;
 
